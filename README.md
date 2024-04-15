@@ -26,17 +26,20 @@ Para ejecutar un reto:
    git clone https://github.com/jelambrar96/retos_programacion_python_barranquilla_2024.git
    ```
 
-3. **Crea una Rama (Branch)**: Crea una nueva rama para trabajar en tu contribución.
-
-   ```bash
-   git checkout -b mi-nueva-contribucion
-   ```
-
-4. **Agrega el remote del repo original como upstream**: Con esto puedes fácilmente actualizar tu repositorio.
+3. **Agrega el remote del repo original como upstream**: Con esto puedes fácilmente actualizar tu repositorio.
 
     ```bash
     git remote add upstream https://github.com/jelambrar96/retos_programacion_python_barranquilla_2024.git
     ```
+
+4. **Crea una Rama (Branch)**: Crea una nueva rama para trabajar en tu contribución.
+
+   ```bash
+   git checkout -b usuariogithub_reto_XX
+   ```
+
+    Donde **usuariogithub** corresponde al usuario github que has creado y **XX** al número del reto que estás haciendo.
+
 
 5. **Realiza tus Cambios**: Realiza los cambios necesarios en el código para resolver el reto o agregar nuevas funcionalidades. Usualmente tendrás que crear un archivo con tu nombre de ususario en github y extensión `.py` o un directorio con tu nombre de usuario donde desarrollarás la solución. En algunos ejercicios vas a tener un archivo o carpeta llamado `template` que te podrá ser de gran ayuda. 
 
@@ -48,10 +51,10 @@ Para ejecutar un reto:
 
 7. **Push a tu Repositorio en GitHub**:
    ```bash
-   git push origin mi-nueva-contribucion
+   git push origin usuariogithub_reto_XX
    ```
 
-8. **Envía un Pull Request (PR)**: Ve a tu repositorio en GitHub y haz clic en el botón "Compare & Pull Request" para enviar tu PR a este repositorio principal.
+8. **Envía un Pull Request (PR)**: Ve a tu repositorio en GitHub y haz clic en el botón "Compare & Pull Request" para enviar tu PR a este repositorio principal. Recomendamos que el título del Pull Request sea el mismo que el de la rama que has creado.  
 
 9.  **Espera la Revisión**: Nuestro equipo revisará tu PR y te proporcionará retroalimentación si es necesario. Una vez que sea aprobado, ¡tu contribución se fusionará con el repositorio principal!
 
