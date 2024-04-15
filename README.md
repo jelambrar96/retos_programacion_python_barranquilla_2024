@@ -38,7 +38,7 @@ Para ejecutar un reto:
     git remote add upstream https://github.com/jelambrar96/retos_programacion_python_barranquilla_2024.git
     ```
 
-5. **Realiza tus Cambios**: Realiza los cambios necesarios en el código para resolver el reto o agregar nuevas funcionalidades.
+5. **Realiza tus Cambios**: Realiza los cambios necesarios en el código para resolver el reto o agregar nuevas funcionalidades. Usualmente tendrás que crear un archivo con tu nombre de ususario en github y extensión `.py` o un directorio con tu nombre de usuario donde desarrollarás la solución. En algunos ejercicios vas a tener un archivo o carpeta llamado `template` que te podrá ser de gran ayuda. 
 
 6. **Agrega y Commitea tus Cambios**:
    ```bash
@@ -53,7 +53,7 @@ Para ejecutar un reto:
 
 8. **Envía un Pull Request (PR)**: Ve a tu repositorio en GitHub y haz clic en el botón "Compare & Pull Request" para enviar tu PR a este repositorio principal.
 
-9. **Espera la Revisión**: Nuestro equipo revisará tu PR y te proporcionará retroalimentación si es necesario. Una vez que sea aprobado, ¡tu contribución se fusionará con el repositorio principal!
+9.  **Espera la Revisión**: Nuestro equipo revisará tu PR y te proporcionará retroalimentación si es necesario. Una vez que sea aprobado, ¡tu contribución se fusionará con el repositorio principal!
 
 
 ### ¿Cómo actualizar mi rama master?
