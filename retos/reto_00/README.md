@@ -11,7 +11,7 @@ Así que... ¡Adelante y súmate a la lista!
 ## Contribuidores
 
 - <a href="https://github.com/jelambrar96" target="_blank">jelambrar96</a> - Jorge Lambraño
-- 
+- <a href="https://github.com/gersondivab" target="_blank">gersondivab</a> - Gerson Herrera
 - 
 - 
 - 
