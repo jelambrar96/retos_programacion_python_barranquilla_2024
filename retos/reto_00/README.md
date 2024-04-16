@@ -13,7 +13,7 @@ Así que... ¡Adelante y súmate a la lista!
 - <a href="https://github.com/jelambrar96" target="_blank">jelambrar96</a> - Jorge Lambraño
 - <a href="https://github.com/gersondivab" target="_blank">gersondivab</a> - Gerson Herrera
 - <a href="https://github.com/jhernandez1130" target="_blank">jhernandez1130</a> - Jesus hernandez
-- 
+- <a href="https://github.com/D4v1d-00" target="_blank">D4v1d-00</a> - David Castellar
 - 
 - 
 - 
