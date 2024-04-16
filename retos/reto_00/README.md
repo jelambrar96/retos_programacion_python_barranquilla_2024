@@ -14,6 +14,7 @@ Así que... ¡Adelante y súmate a la lista!
 - <a href="https://github.com/gersondivab" target="_blank">gersondivab</a> - Gerson Herrera
 - <a href="https://github.com/jhernandez1130" target="_blank">jhernandez1130</a> - Jesus hernandez
 - <a href="https://github.com/Leuanam3" target="_blank">Leuanam3</a> - Emanuel Molina
+- <a href="https://github.com/carisabv" target="_blank">carisabv</a> - Dairis Carranza 
 - 
 - 
 - 
