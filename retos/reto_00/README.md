@@ -20,6 +20,7 @@ Así que... ¡Adelante y súmate a la lista!
 - <a href="https://github.com/serdna000" target="_blank">serdna000</a> -Andres Palma
 - <a href="https://github.com/josejr-humanez" target="_blank">josejr-humanez</a> - jose humanez
 - <a href="https://github.com/roxi0103" target="_blank">roxi0103</a> - Roxana Consuegra 
+- <a href="https://github.com/luisbarbudo1" target="_blank">luisbarbudo1</a> - Luis Barbudo
 - 
 - 
 - 
