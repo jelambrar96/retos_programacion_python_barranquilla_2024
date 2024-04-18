@@ -4,7 +4,7 @@
 
 ## ¿Cómo Ejecutar los Retos?
 
-Cada reto de programación viene con su propia carpeta dentro de este repositorio. Dentro de cada carpeta encontrarás el enunciado del reto y, en algunos casos, archivos de prueba para comprobar la validez de tu solución.
+Cada reto de programación viene con su propia carpeta dentro del repositorio. Dentro de cada carpeta encontrarás el enunciado del reto y, en algunos casos, archivos de prueba para comprobar la validez de tu solución.
 
 Para ejecutar un reto:
 
