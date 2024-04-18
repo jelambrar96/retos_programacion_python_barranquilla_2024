@@ -17,7 +17,6 @@ Así que... ¡Adelante y súmate a la lista!
 - <a href="https://github.com/P10SECURITY" target="_blank">P10SECURITY</a> - Alexander Padilla
 - <a href="https://github.com/Leuanam3" target="_blank">Leuanam3</a> - Emanuel Molina
 - <a href="https://github.com/carisabv" target="_blank">carisabv</a> - Dairis Carranza 
-- <a href="https://github.com/@mejiapatricia151" target="_blank">patricia151abv</a> -inespatriciamejia
 - 
 - 
 - 
