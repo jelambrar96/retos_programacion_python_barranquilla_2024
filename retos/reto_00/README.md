@@ -5,7 +5,7 @@ En este reto hemos decido pedirte que escribas tu nombre y tu nombre de usuario 
 ```plain
 <a href="https://github.com/jelambrar96" target="_blank">jelambrar96</a> -Jorge Lambraño
 ```
-<a href="https://github.com/carisabv" target="_blank">carisabv</a> - Dairis Carranza
+
 Así que... ¡Adelante y súmate a la lista!
 
 ## Contribuidores
