@@ -1,6 +1,6 @@
 # Bienvenido al Repositorio de Retos de Programación en Python
 
-¡Hola y bienvenido a nuestro repositorio de retos de programación en Python! Aquí encontrarás una serie de desafíos diseñados para poner a prueba tus habilidades de programación en Python. Ya seas un principiante o un experto en Python, ¡te invitamos a participar y mejorar tus habilidades!
+¡Hola y bienvenido al repositorio de retos de programación en Python! Aquí encontrarás una serie de desafíos diseñados para poner a prueba tus habilidades de programación en Python. Ya seas un principiante o un experto en Python, ¡te invitamos a participar y mejorar tus habilidades!
 
 ## ¿Cómo Ejecutar los Retos?
 
