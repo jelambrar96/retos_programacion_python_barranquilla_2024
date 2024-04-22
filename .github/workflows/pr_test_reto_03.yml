@@ -25,7 +25,7 @@ jobs:
             echo "File $FILE does not exist."
             exit 1
           fi
-          if ! grep -q 'def conteo_421(' $FILE ; then
+          if ! grep -q 'def fizzbuzz(' $FILE ; then
             echo "Functions not found in $FILE"
             exit 1
           fi
