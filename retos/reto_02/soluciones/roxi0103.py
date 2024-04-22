@@ -18,9 +18,11 @@ def conteo_421(numero):
     return contador
     
     
-numero=int(input("digite un numero entero:"))
-print("el numero es:", numero,"y el numero de veces que se repite el proceso es", conteo_421(numero))
-git add ruta/archivo/c
-o
-git commit -m NombreUsusarioGithub_reto_02
-git push origin NombreUsusarioGithub_reto_02
+
+
+if __name__ == '__main__':
+    """
+    escribe lo que quieras que tu codigo haga cuando se llame directamente
+    """
+    numero=int(input("digite un numero entero:"))
+    print("el numero es:", numero,"y el numero de veces que se repite el proceso es", conteo_421(numero))
