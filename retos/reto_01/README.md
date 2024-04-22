@@ -1,6 +1,6 @@
 # Reto 01
 
-Comenzamos nuestro camino de retos de programación en python y para esto decidimos empezar con uno de los códigos más simples que se puede construir con este lenguaje de programción: Imprimir por consola "Hola Mundo".
+Comenzamos nuestro camino de retos de programación en python y para esto decidimos empezar con uno de los códigos más simples que se puede construir con este lenguaje de programación: Imprimir por consola "Hola Mundo".
 
 Realiza los siguientes pasos para realizar el reto: 
 - Construye una rama (branch) siguiendo el formato NombreUsusarioGithub_reto_01, por ejemplo: `jelambrar96_reto_01`
@@ -13,3 +13,7 @@ Realiza los siguientes pasos para realizar el reto:
     git push origin nombre_rama
     ```
 - Realiza un [**pull request**](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) al repositorio principal de retos barranquilla. 
+
+## Reto 
+
+Construye un programa que imprima "Hola Mundo"

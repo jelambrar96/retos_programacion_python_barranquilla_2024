@@ -3,7 +3,7 @@
 ## Pasos para realizar el reto
 
 Realiza los siguientes pasos para realizar el reto: 
-- Construye una rama (branch) siguiendo el formato NombreUsusarioGithub_reto_02, por ejemplo: `jelambrar96_reto_01`
+- Construye una rama (branch) siguiendo el formato NombreUsusarioGithub_reto_02, por ejemplo: `jelambrar96_reto_02`
 - Dentro de la carpeta soluciones escribe un archvivo con tu nombre de usuario de github y con extensión python. Por ejemplo `jelambrar96.py`
 - El archivo que hayas creado deber ser capaz de resolver el reto. 
 - Crea un commit con tus cambios:
