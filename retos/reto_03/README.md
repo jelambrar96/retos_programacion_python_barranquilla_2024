@@ -16,10 +16,11 @@ Realiza los siguientes pasos para realizar el reto:
 
 ## Reto
 
-Escribe una función en python llamada `fizzbuzz`, que acepte dos parámetros enteros **start** y **end**. Los valores predeterminados para **start** y **end** son 1 y 101, respectivamente. El programa debe mostrar por consola en cada línea los números desde **start** hasta **end** (sin incluirlo). Y además debe hacer lo siguiente:  
+Escribe una función en python llamada `fizzbuzz`, que acepte dos parámetros enteros **start** y **end**. Los valores predeterminados para **start** y **end** son 1 y 101, respectivamente. El programa debe mostrar por consola en cada línea los números desde **start** hasta **end** (sin incluirl end). Y además debe hacer lo siguiente:  
 - Para los múltiplos de 3 reemplazar el número por la palabra "fizz".
 - Para los múltiplos de 5 reemplazar el número por la palabra "buzz".
 - Para los múltiplos de 3 y de 5 a la vez reemplar el número por la palabra "fizzbuzz".
+
 Si **end** es menor a **start** los números deben ir de forma descendente.  
 
 
@@ -57,3 +58,12 @@ fizz
 ## Tip:
 
 Ten prensente el orden en que estás realizando las condiciones. Esto puede afectar la salida de tu codigo.
+
+
+## Tip: 
+
+```python
+def fizzbuzz(end=valuedetault, start=valuedefault):
+    # TODO: write you code here
+    pass
+```
