@@ -48,7 +48,7 @@ buzz
 fizz
 8
 7
-6
+fizz
 buzz
 4
 fizz
