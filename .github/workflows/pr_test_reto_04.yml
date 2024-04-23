@@ -29,5 +29,5 @@ jobs:
       - name: Run function tests
         run: |
           FILENAME=$(jq -r '.pull_request.user.login' $GITHUB_EVENT_PATH)
-          python test_contributions.py "${FILENAME}.py"
+          python test_contributions.py "${FILENAME}"
         working-directory: retos/reto_04/soluciones/

@@ -14,7 +14,7 @@ def test_verificar_ejecutar_function():
     sys.modules["module.name"] = module
     spec.loader.exec_module(module)
     
-    assert hasattr(module, 'fizzbuzz'), f"ERROR: el modulo conteo_421 no existe en el archivo"    
+    assert hasattr(module, 'fizzbuzz'), f"ERROR: el modulo fizzbuzzz no existe en el archivo"    
 
     assert module.fizzbuzz() == None, "La función 'fizzbuzz' no devuelve el resultado esperado para la entrada."
     assert module.fizzbuzz(end=51) ==  None, "La función 'fizzbuzz' no devuelve el resultado esperado para la entrada. end=51"
