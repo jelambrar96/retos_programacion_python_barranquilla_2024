@@ -1,32 +1,35 @@
+import os
 import unittest
 import sys
 import importlib.util
 
-class TestConteo421(unittest.TestCase):
 
-    def test_conteo_421_exists_and_correct_output(self):
-        # Tomar el nombre del archivo desde los argumentos de la línea de comando
-        filename = sys.argv.pop()  # Remueve el último argumento que es el nombre del archivo
-        spec = importlib.util.spec_from_file_location("module.name", filename)
-        module = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(module)
-        
-        # Verificar que la función existe
-        self.assertTrue(hasattr(module, 'conteo_421'), "La función 'conteo_421' no existe en el archivo.")
+def test_verificar_ejecutar_function():
+    last_argument = sys.argv[-1]
+    ruta_archivo = f"{last_argument}.py"
+    assert os.path.isfile(ruta_archivo), f"ERROR: el archivo {ruta_archivo} no existe"
+    
+    spec = importlib.util.spec_from_file_location("module.name", ruta_archivo)
+    module = importlib.util.module_from_spec(spec)
+    sys.modules["module.name"] = module
+    spec.loader.exec_module(module)
+    
+    assert hasattr(module, 'conteo_421'), f"ERROR: el modulo conteo_421 no existe en el archivo"    
+    assert module.conteo_421(1) == 0, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 1."
+    assert module.conteo_421(62) == 107, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 62."
+    assert module.conteo_421(56) == 19, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 56."
+    assert module.conteo_421(27) == 111, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 27."
+    assert module.conteo_421(77) == 22, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 77."
+    assert module.conteo_421(55) == 112, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 55."
+    assert module.conteo_421(28) == 18, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 28."
+    assert module.conteo_421(88) == 17, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 88."
+    assert module.conteo_421(21) == 7, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 21."
+    assert module.conteo_421(47) == 104, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 47."
+    assert module.conteo_421(9) == 19, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 9."
+    assert module.conteo_421(48) == 11, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 48."
+    assert module.conteo_421(54) == 112, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 54."
+    
 
-        # Verificar que la función devuelve el resultado esperado para la entrada dada
-        result = module.conteo_421(1)
-        self.assertEqual(result, 0, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 1.")
-        self.assertEqual(module.conteo_421(111), 27, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 27.")
-        self.assertEqual(module.conteo_421(9), 84, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 84.")
-        self.assertEqual(module.conteo_421(15), 22, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 22.")
-        self.assertEqual(module.conteo_421(35), 79, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 79.")
-        self.assertEqual(module.conteo_421(26), 33, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 33.")
-        self.assertEqual(module.conteo_421(34), 39, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 39.")
-        self.assertEqual(module.conteo_421(20), 18, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 18.")
-        self.assertEqual(module.conteo_421(109), 41, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 41.")
-        self.assertEqual(module.conteo_421(16), 46, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 46.")
-        self.assertEqual(module.conteo_421(5), 5, "La función 'conteo_421' no devuelve el resultado esperado para la entrada 5.")
 
 if __name__ == '__main__':
-    unittest.main()
+    test_verificar_ejecutar_function()
