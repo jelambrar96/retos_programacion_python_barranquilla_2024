@@ -36,7 +36,7 @@ def potencia(n, m):
         resultado = multiplicacion(resultado, n)
     return resultado
 
-if __name__ == '__main':
+if __name__ == '__main__':
     # Input de usuario
     num1 = int(input("Ingresa el primer número: "))
     num2 = int(input("Ingresa el segundo número: "))
