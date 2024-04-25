@@ -1,12 +1,13 @@
 def conteo_421(a):
-    print(a)
+    contador = 0
     while a > 1:
         if a % 2 == 0:
             a //= 2
-            print(a)
+            contador += 1
         else:
             a *= 3
             a += 1
-            print(a)
+            contador += 1
+    return contador
 
-conteo_421(27)
+print(conteo_421(27))
