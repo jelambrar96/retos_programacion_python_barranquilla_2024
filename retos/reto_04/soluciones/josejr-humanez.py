@@ -36,15 +36,16 @@ def potencia(n, m):
         resultado = multiplicacion(resultado, n)
     return resultado
 
-# Input de usuario
-num1 = int(input("Ingresa el primer número: "))
-num2 = int(input("Ingresa el segundo número: "))
+if __name__ == '__main':
+    # Input de usuario
+    num1 = int(input("Ingresa el primer número: "))
+    num2 = int(input("Ingresa el segundo número: "))
 
-# Ejemplos de uso con input de usuario
-print(f"Incremento de {num1} que es :", incremento(num1))  
-print(f"Decremento de {num1} que es :", decremento(num1))  
-print(f"Suma de : {num1} + {num2} es : ", suma(num1, num2))            
-print(f"Resta de : {num1} - {num2} es : ", resta(num1, num2))         
-print(f"Multiplicación: de : {num1} * {num2} : es : ", multiplicacion(num1, num2))  
-print(f"División Entera de : de : {num1} / {num2} es :", division_entera(num1, num2)) 
-print(f"Potencia: de : {num1} ** {num2} : es :", potencia(num1, num2))   
+    # Ejemplos de uso con input de usuario
+    print(f"Incremento de {num1} que es :", incremento(num1))  
+    print(f"Decremento de {num1} que es :", decremento(num1))  
+    print(f"Suma de : {num1} + {num2} es : ", suma(num1, num2))            
+    print(f"Resta de : {num1} - {num2} es : ", resta(num1, num2))         
+    print(f"Multiplicación: de : {num1} * {num2} : es : ", multiplicacion(num1, num2))  
+    print(f"División Entera de : de : {num1} / {num2} es :", division_entera(num1, num2)) 
+    print(f"Potencia: de : {num1} ** {num2} : es :", potencia(num1, num2))   
