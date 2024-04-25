@@ -1,0 +1,33 @@
+name: pr_test_reto_04
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths: 'retos/reto_04/soluciones/**'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Check file conditions
+        run: |
+          FILENAME=$(jq -r '.pull_request.user.login' $GITHUB_EVENT_PATH)
+          FILE="retos/reto_04/soluciones/${FILENAME}.py"
+          if [ ! -f "$FILE" ]; then
+            echo "File $FILE does not exist."
+            exit 1
+          fi
+
+      - name: Run function tests
+        run: |
+          FILENAME=$(jq -r '.pull_request.user.login' $GITHUB_EVENT_PATH)
+          python test_contributions.py "${FILENAME}"
+        working-directory: retos/reto_04/soluciones/
