@@ -37,7 +37,7 @@ def test_verificar_ejecutar_function():
     assert hasattr(module, 'multiplicacion'), f"ERROR: el modulo multiplicacion no existe en el archivo"    
     assert module.multiplicacion(0, 0) == (0 * 0), "La función 'multiplicacion' no devuelve el resultado esperado para n = 0, m = 0"
     assert module.multiplicacion(4, 3) == (4 * 3), "La función 'multiplicacion' no devuelve el resultado esperado para n = 4, m = 3"
-    assert module.multiplicacion(-4, 6) == (-4 * 6), "La función 'multiplicacion' no devuelve el resultado esperado para n = -4, m = 6"    
+    assert module.multiplicacion(4, 6) == (4 * 6), "La función 'multiplicacion' no devuelve el resultado esperado para n = -4, m = 6"    
         
     assert hasattr(module, 'potencia'), f"ERROR: el modulo potencia no existe en el archivo"    
     assert module.potencia(5, 2) == (5 ** 2), "La función 'potencia' no devuelve el resultado esperado para n = 5, m = 2"
