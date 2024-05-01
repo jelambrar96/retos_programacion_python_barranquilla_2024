@@ -1,16 +1,16 @@
-# Reto 10
+# Reto 11
 
 ## Pasos para realizar el reto
 
 Realiza los siguientes pasos para realizar el reto: 
-- Construye una rama (branch) siguiendo el formato NombreUsusarioGithub_reto_10, por ejemplo: `jelambrar96_reto_10`
+- Construye una rama (branch) siguiendo el formato NombreUsusarioGithub_reto_11, por ejemplo: `jelambrar96_reto_11`
 - Dentro de la carpeta soluciones escribe un archvivo con tu nombre de usuario de github y con extensión python. Por ejemplo `jelambrar96.py`
 - El archivo que hayas creado deber ser capaz de resolver el reto. 
 - Crea un commit con tus cambios:
     ```bash
     git add ruta/archivo/creado
-    git commit -m NombreUsusarioGithub_reto_10
-    git push origin NombreUsusarioGithub_reto_10
+    git commit -m NombreUsusarioGithub_reto_11
+    git push origin NombreUsusarioGithub_reto_11
     ```
 - Realiza un [**pull request**](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) al repositorio principal de retos barranquilla. 
 
