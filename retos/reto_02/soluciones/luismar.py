@@ -10,5 +10,7 @@ def conteo_421(num):
       cont += 1
   return cont
 
-num=int(input("Ingrese su numero"))
-print(conteo_421(num))
+
+if __name__=="__main__":
+    num=int(input("Ingrese su numero"))
+    print(conteo_421(num))
