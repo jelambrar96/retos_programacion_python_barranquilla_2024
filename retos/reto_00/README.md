@@ -26,6 +26,7 @@ Así que... ¡Adelante y súmate a la lista!
 - <a href="https://github.com/luisbarbudo1" target="_blank">luisbarbudo1</a> - Luis Barbudo
 - <a href="https://github.com/wilffren" target="_blank">wilffren</a> -Wilffren Muñoz
 - <a href="https://github.com/oherrer" target="_blank">oherrer</a> - Osman Herrera
+- <a href="https://github.com/jelambrar96" target="_blank">jelambrar96</a> - Jorge Lambraño
 - 
 - 
 - 
