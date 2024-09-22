@@ -27,7 +27,7 @@ Así que... ¡Adelante y súmate a la lista!
 - <a href="https://github.com/wilffren" target="_blank">wilffren</a> -Wilffren Muñoz
 - <a href="https://github.com/oherrer" target="_blank">oherrer</a> - Osman Herrera
 - <a href="https://github.com/staroc40" target="_blank">staroc40</a> - Jorge Meneses 
-- 
+- <a href="https://github.com/ajimenez2024" target="_blank">ajimenez2024</a> -Aron Jimenez
 - 
 - 
 - 
